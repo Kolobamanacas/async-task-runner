@@ -1,0 +1,26 @@
+{
+  "name": "async-task-runner",
+  "version": "0.0.1",
+  "description": "Runs arbitrary number of tasks (which implements oxide.ts pattern) in parallel.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kolobamanacas/async-task-runner.git"
+  },
+  "author": "Kolobamanacas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kolobamanacas/async-task-runner/issues"
+  },
+  "homepage": "https://github.com/Kolobamanacas/async-task-runner#readme",
+  "dependencies": {
+    "oxide.ts": "^1.1.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
