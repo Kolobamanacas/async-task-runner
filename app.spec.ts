@@ -1,7 +1,7 @@
 import { Err, Ok, Result } from 'oxide.ts'
 import { setTimeout } from 'timers/promises'
 
-import { AsyncTaskRunner } from '@/server/shared/libs/async-task-runner/async-task-runner'
+import { AsyncTaskRunner } from './app'
 
 describe('AsyncTaskRunner > run', () => {
   const callbackOkMock = jest.fn(async (_record: string): Promise<Result<true, Error>> => {
